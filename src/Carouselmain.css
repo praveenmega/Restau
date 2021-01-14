@@ -1,0 +1,11 @@
+h2 {
+    font-family: 'Chewy Regular';
+    color: white;
+}
+
+@font-face {
+    font-family: 'Chewy Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chewy Regular'), url('Chewy-Regular.woff') format('woff');
+    }

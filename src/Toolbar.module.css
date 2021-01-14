@@ -1,0 +1,48 @@
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0099CC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Toolbar li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+.Toolbar nav {
+    height: 100%;
+}
+
+
+
+.Toolbar h1 {
+    font-family: 'Chewy Regular';
+    font-size: 40px;
+    color: white;
+    /* color: #cf8f2e; */
+}
+
+@font-face {
+    font-family: 'Chewy Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chewy Regular'), url('Chewy-Regular.woff') format('woff');
+    }
+
+@media (max-width:500px) {
+    .Formobile {
+        display:none;
+    }
+}
