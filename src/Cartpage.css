@@ -1,29 +1,29 @@
 h1 {
-    font-family: 'Chewy Regular';
-    font-size: 40px;
-    color: #0099CC;
-    /* color: #cf8f2e; */
+  font-family: "Chewy Regular";
+  font-size: 40px;
+  color: #0099cc;
+  /* color: #cf8f2e; */
 }
 
 @font-face {
-    font-family: 'Chewy Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Chewy Regular'), url('Chewy-Regular.woff') format('woff');
-    }
+  font-family: "Chewy Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Chewy Regular"), url("Chewy-Regular.woff") format("woff");
+}
 
 Form {
-    margin: 20px auto;
-    width: 80%;
-    text-align: center;
-    box-shadow: 0 2px 3px #ccc;
-    border: 1px solid #eee;
-    padding: 10px;
-    box-sizing: border-box;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
 }
-    
-@media(min-width:600px){
-    Form {
-        width: 500px;
-    }
+
+@media (min-width: 600px) {
+  Form {
+    width: 500px;
+  }
 }
